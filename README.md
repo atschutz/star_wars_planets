@@ -1,4 +1,4 @@
-# Truss Technical Challenge
+# Star Wars Planets
 
 ## Prerequisites
 - Git (`https://git-scm.com/downloads`) v2.30.0
