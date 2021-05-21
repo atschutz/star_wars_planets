@@ -1,0 +1,58 @@
+.app {
+  margin: 25px auto;
+  width: 50%
+}
+
+.planet-table {
+  border-collapse: collapse;
+}
+
+.table-header {
+  background-color: gray;
+  font-weight: 500;
+  color: whitesmoke;
+  margin: 50px;
+}
+
+.table-cell, .header-cell, .clickable-table-cell {
+  padding: 10px 25px 10px 25px;
+  border-color: grey;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.header-cell {
+  text-align: center;
+}
+
+.clickable-table-cell {
+  cursor: pointer;
+  text-decoration: underline darkblue;
+}
+
+.clickable-table-cell:hover {
+  background-color: lightblue;
+}
+
+.error-message, .loading-message {
+  margin: auto;
+  position: absolute;
+  top: 15%;
+  left: 45%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.error-message {
+  padding: 20px 20px 20px 20px;
+  background-color: darkred;
+  color: tomato;
+  font-size: 25px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: tomato;
+}
+
+.loading-message {
+  color: grey
+}
